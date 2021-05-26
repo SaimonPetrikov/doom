@@ -1,6 +1,6 @@
 import { IMessageHandler } from "./IMessageHandler";
 import { IMessage } from "./IMessage";
-import { Utilities } from "./core/Utilities";
+import { Utilities } from "./Core/Utilities";
 
 export class Message implements IMessage {
     private static _subscriptions: { [code: string]: IMessageHandler[] } = {};

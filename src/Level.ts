@@ -1,6 +1,6 @@
 import * as Box2D from "@flyover/box2d"
 import { Scene, PlaneGeometry, MeshBasicMaterial, Color, Mesh } from "three";
-import { Renderer } from "./core/Renderer";
+import { Renderer } from "./Core/Renderer";
 
 export class Level {
 

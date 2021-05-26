@@ -1,4 +1,4 @@
-import { Engine } from "./core/Engine"
+import { Engine } from "./Core/Engine"
 
 window.onload = () => {
     let engine = new Engine(
